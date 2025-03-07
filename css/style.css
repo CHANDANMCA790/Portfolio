@@ -327,6 +327,7 @@ span {
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+    text-align: justify;
 }
 
 .services {
@@ -353,8 +354,10 @@ span {
     border-radius: 2rem;
     box-shadow: 0 .1rem .5rem var(--shadow-color);
     text-align: center;
-    border-top: .6rem solid var(--main-color);
-    border-bottom: .6rem solid var(--main-color);
+    border-top: .3rem solid var(--main-color);
+    border-bottom: .3rem solid var(--main-color);
+    border-left: .3rem solid var(--main-color);
+    border-right: .3rem solid var(--main-color);
     transition: .5s ease;
 }
 
@@ -380,6 +383,7 @@ span {
 .services-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+    text-align: justify;
 }
 
 .portfolio {
@@ -444,6 +448,7 @@ span {
 .portfolio-layer p {
     font-size: 1.6rem;
     margin: .3rem 0 1rem;
+    text-align: justify;
 }
 
 .portfolio-layer a {
@@ -490,8 +495,10 @@ span {
     border-radius: 2rem;
     box-shadow: 0 .1rem .5rem var(--shadow-color);
     padding: 3rem 5rem;
-    border-top: .8rem solid var(--main-color);
-    border-bottom: .8rem solid var(--main-color);
+    border-top: .3rem solid var(--main-color);
+    border-bottom: .3rem solid var(--main-color);
+    border-left: .3rem solid var(--main-color);
+    border-right: .3rem solid var(--main-color);
 }
 
 .testimonial-slide img {
@@ -499,8 +506,8 @@ span {
     height: 14rem;
     object-fit: cover;
     border-radius: 50%;
-    border: .5rem solid var(--bg-color);
-    outline: .5rem solid var(--main-color);
+    border: .3rem solid var(--bg-color);
+    outline: .3rem solid var(--main-color);
 }
 
 .testimonial-slide h3 {
@@ -510,7 +517,7 @@ span {
 
 .testimonial-slide p {
     font-size: 1.4rem;
-    text-align: center;
+    text-align: justify;
 }
 
 .testimonial-box .swiper-button-next,
